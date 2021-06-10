@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'jquery/dist/jquery.min.js';
 import $ from 'jquery';
-import gambar from '../src/assets/images/logo_sikom.png'
+import gambar from '../assets/images/logo_sikom.png'
 
-class App extends React.Component {
+class Login extends React.Component {
     componentDidMount(){
         //animation code
         $(document).ready(function(){
@@ -95,4 +95,4 @@ class App extends React.Component {
     };
 }
 
-export default App;
+export default Login;
